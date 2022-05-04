@@ -27,7 +27,7 @@ function Moviedetails() {
             }
         })
         
-    }, []);
+    }, [id]);
 
     return (
         <div>

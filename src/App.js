@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Filter from './Filter';
+// import Filter from './Filter';
 import Home from './Home';
 import Navbar from './Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -11,7 +11,6 @@ const App = () => {
     <Router>
       <div className='App'>
         <Navbar />
-        <Filter />
         <Switch>
           <Route exact path="/">
             <Home />

@@ -19,8 +19,11 @@ nav a {
   color: #0037ff;
   font-weight: 700;
 }
+nav a:hover {
+  color: #2600ff70;
+}
 .filter {
-  width: 90%;
+  width: 100%;
   margin: 4rem auto;
   display: flex;
   justify-content: space-between;

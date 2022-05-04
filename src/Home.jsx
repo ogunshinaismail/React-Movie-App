@@ -8,9 +8,9 @@ function Home() {
         <>
             {isPending && <div className='loading'>Loading.....</div>}
             {error && <div className='error'>{ error }</div>}
-            {movies && <Movielist movies={movies} title='All Movies' />}
+            {movies && <Movielist movies={movies} title='Popular Movies' />}
         </>
     )
 }
 
-export default Home
+export default Home 

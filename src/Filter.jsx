@@ -1,10 +1,12 @@
 import React from 'react'
+// import { useState } from 'react'
 
-function Filter() {
+function Filter({searchTerm}) {
+    console.log(searchTerm)
     return (
         <div className='filter'>
             <div className="search-btn">
-                <input type="text" placeholder='Search movie...' />
+                <input type="text" placeholder='Search movie...' onChange={e => { searchTerm(e.target.value) }} />
             </div>
         </div>
     )
